@@ -13,6 +13,11 @@ const home = [{
   path: "/StoreTest",
   name: "StoreTest",
   component: () => import("~/pages/home/components/StoreTest.vue"),
-}];
+},{
+  path: "/Swiper",
+  name: "Swiper",
+  component: () => import("~/pages/home/components/Swiper.vue"),
+}
+];
 
 export default home;

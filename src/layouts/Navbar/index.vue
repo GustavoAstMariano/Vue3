@@ -12,7 +12,7 @@ defineOptions({
   <div
     class="sticky top-0 z-30 h-16 w-full flex justify-center text-base-content opacity-90 backdrop-blur transition-all duration-100"
   >
-    <nav class="w-full navbar">
+    <nav class="col-11 navbar">
       <div class="flex flex-1 lg:gap-2 md:gap-1">
         <RouterLink
           to="/"

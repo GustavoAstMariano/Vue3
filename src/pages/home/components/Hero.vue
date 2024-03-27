@@ -3,7 +3,7 @@ const router = useRouter();
 
 function testStore() {
   router.push({
-    name: "StoreTest",
+    name: "Swiper",
   });
 }
 </script>
@@ -23,7 +23,7 @@ function testStore() {
           {{ $t(`Mocking up web app with Boot Vue`) }} <sup>(speed)</sup>
         </p>
         <button class="btn btn-primary" @click="testStore">
-          {{ $t(`Test Store`) }}
+          {{ $t(`Test Swiper`) }}
         </button>
       </div>
     </div>

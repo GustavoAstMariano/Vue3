@@ -12,8 +12,9 @@ import { registerStore } from "./store";
 import App from "~/App.vue";
 
 // reset css
-import "~/styles/main.css";
+//import "~/styles/main.css";
 import "uno.css";
+import "~/scss/style.scss";
 
 const app = createApp(App);
 app.use(createI18n({
